@@ -1,0 +1,14 @@
+Source: bindp
+Section: net
+Priority: extra
+Maintainer: "Serge" <serge@openedu.ru>
+Build-Depends: debhelper (>=9), build-essential
+Standards-Version: 3.9.8
+Homepage: https://github.com/miptliot/bindp
+
+Package: bindp
+Architecture: amd64
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Forces applications to bind to specified address/port
+ Forces applications to bind to specified address/port
