@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -n "$1" ]; then
+  export LD_PRELOAD="/lib/x86_64-linux-gnu/libindp.so"
+  exec "$@"
+fi
+
+echo "\
+Usage:
+  [BIND_ADDR=\"127.0.0.1\"] [BIND_PORT=\"49888\"] [REUSE_ADDR=1] [REUSE_PORT=1] [IP_TRANSPARENT=1] $0"
