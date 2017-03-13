@@ -1,0 +1,5 @@
+bindp (20170122~3656d46) jessie; urgency=low
+
+  * add newline at the end
+
+ -- Serge <serge@openedu.ru>  Mon, 13 Mar 2017 09:12:05 +0300

@@ -1,0 +1,2 @@
+debian/_bin/bindp /bin/
+libindp.so /lib/x86_64-linux-gnu/
